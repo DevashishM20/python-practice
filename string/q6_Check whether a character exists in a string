@@ -1,0 +1,5 @@
+a="My name is devashish"
+if 'm' in a:
+    print("present in a")
+else:
+    print("not present")
