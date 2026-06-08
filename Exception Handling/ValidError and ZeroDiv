@@ -1,0 +1,9 @@
+try:
+    a=int(input("Enter number A:"))
+    b=int(input("Enter number B:"))
+    x=a/b
+    print(x)
+except ValueError:
+    print("Invalid")
+except ZeroDivisionError:
+    print("number is div by zero")

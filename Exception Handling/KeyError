@@ -1,0 +1,10 @@
+try:
+    i=input("Enter Number")
+    a={
+        'devashish':9,
+        'palak':7,
+        'arti':6,
+    }
+    print(a[i])
+except KeyError:
+    print("Invalid")

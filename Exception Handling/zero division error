@@ -1,0 +1,8 @@
+try:
+    a=int(input("Enter first Number"))
+    b=int(input("Enter second Number"))
+    x=a/b
+    print(x)
+except ZeroDivisionError:
+    print("Number is devided by zero")
+
