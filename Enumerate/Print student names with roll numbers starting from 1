@@ -1,0 +1,3 @@
+lst=["Devashish","Palak","Arti"]
+for i,j in enumerate(lst,start=1):
+    print(i,j)

@@ -1,0 +1,5 @@
+lst = [10,20,30,40]
+num = 30
+for i, j in enumerate(lst):
+    if(i%2==0):
+        print(i,j)

@@ -1,0 +1,4 @@
+a=input("Enter name:")
+for i,j in enumerate(a):
+    if(j=='a'):
+        print(i)

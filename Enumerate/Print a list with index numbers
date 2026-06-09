@@ -1,0 +1,3 @@
+lst = ["Apple", "Banana", "Mango"]
+for i,j in enumerate(lst):
+    print(i,j)
