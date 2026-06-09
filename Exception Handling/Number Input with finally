@@ -1,0 +1,7 @@
+try:
+    a=int(input("enter text:"))
+    print(a)
+except ValueError:
+    print("Invaid Input")
+finally:
+    print("Thank u")
