@@ -1,0 +1,7 @@
+class rectangle:
+    def __init__(self,length,breadth):
+        self.lenght=length
+        self.breadth=breadth 
+
+a=rectangle(10,6)
+print(a.lenght*a.breadth)

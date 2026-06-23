@@ -1,0 +1,9 @@
+class Number:
+    def even_odd(self,n):
+        if(n%2==0):
+            print("Even")
+        else:
+            print("odd")
+a=Number()
+a.even_odd(7)
+a.even_odd(10)
