@@ -1,0 +1,13 @@
+class calculator:
+    def __init__(self,num):
+        self.num=num
+    def add(self,n):
+        self.num=self.num+n 
+    @staticmethod
+    def add1(a,b):
+        return a+b
+a=calculator(5)
+print(a.num)
+a.add(6)
+print(a.num)
+print(calculator.add1(20,20))

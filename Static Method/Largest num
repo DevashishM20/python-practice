@@ -1,0 +1,8 @@
+class largest:
+    @staticmethod
+    def num(a,b):
+        if a>b:
+            print("a is largest")
+        else:
+            print("b is largest")
+largest.num(1,2)
