@@ -1,0 +1,7 @@
+class Book:
+    def __init__(self, name):
+        self.name = name
+    def __len__(self):
+        return len(self.name)
+b = Book("Python")
+print(len(b))

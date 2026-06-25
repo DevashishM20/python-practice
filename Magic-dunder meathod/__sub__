@@ -1,0 +1,14 @@
+class Number:
+    def __init__(self,num):
+        self.num = num
+    def __sub__(self,other):
+        return self.num - other.num
+a=Number(20)
+b=Number(5)
+print(a-b)
+
+
+
+
+
+
