@@ -1,0 +1,13 @@
+class School:
+    def school_name(self):
+        print("BIT Mesra")
+class Teacher(School):
+    def teach(self):
+        print("Teaching Students")
+class MathTeacher(Teacher):
+    def subject(self):
+        print("Mathematics")
+a = MathTeacher()
+a.school_name()
+a.teach()
+a.subject()

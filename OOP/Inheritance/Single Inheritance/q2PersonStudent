@@ -1,0 +1,11 @@
+class person:
+    def __init__(self,name):
+        self.name=name
+class student(person):
+    def __init__(self,name,roll):
+        super().__init__(name)
+        self.roll=roll 
+
+a=student("Devashish","1234")
+print(a.name)
+print(a.roll)

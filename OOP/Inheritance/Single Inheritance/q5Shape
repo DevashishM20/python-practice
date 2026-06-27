@@ -1,0 +1,14 @@
+class shape:
+    def display(self):
+        print("this is shape")
+class rectangle(shape):
+    def __init__(self,lenght,breath):
+        self.lenght=lenght
+        self.breath=breath
+    def area(self):
+        print("Area=",self.lenght*self.breath)
+
+a=rectangle(10,5)
+a.display()
+a.area()
+        

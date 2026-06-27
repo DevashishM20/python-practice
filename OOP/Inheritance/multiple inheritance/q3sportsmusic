@@ -1,0 +1,11 @@
+class Sports:
+    def play(self):
+        print("Playing Cricket")
+class Music:
+    def sing(self):
+        print("Singing Song")
+class Student(Sports, Music):
+    pass
+a = Student()
+a.play()
+a.sing()

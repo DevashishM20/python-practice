@@ -1,0 +1,15 @@
+class Person:
+    def __init__(self, name):
+        self.name = name
+class Employee(Person):
+    def __init__(self, name, salary):
+        super().__init__(name)
+        self.salary = salary
+class Manager(Employee):
+    def __init__(self, name, salary, department):
+        super().__init__(name, salary)
+        self.department = department
+a = Manager("Devashish", 50000, "IT")
+print("Name:", a.name)
+print("Salary:", a.salary)
+print("Department:", a.department)

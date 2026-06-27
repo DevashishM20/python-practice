@@ -1,0 +1,13 @@
+class Vehicle:
+    def start(self):
+        print("Vehicle Started")
+class Car(Vehicle):
+    def drive(self):
+        print("Car is Driving")
+class SportsCar(Car):
+    def turbo(self):
+        print("Turbo Mode ON")
+a = SportsCar()
+a.start()
+a.drive()
+a.turbo()

@@ -1,0 +1,11 @@
+class Camera:
+    def click(self):
+        print("Photo Clicked")
+class Phone:
+    def call(self):
+        print("Calling...")
+class SmartPhone(Camera, Phone):
+    pass
+a = SmartPhone()
+a.click()
+a.call()

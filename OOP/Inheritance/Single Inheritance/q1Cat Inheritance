@@ -1,0 +1,18 @@
+class animal:
+    def __init__(self,name,breed):
+        self.name=name
+        self.breed=breed
+    def make_sound(self):
+        print("Sound made by that specirs")
+
+class Cat(animal):
+    def __init__(self, name,species):
+        animal.__init__(self,name,breed="cat")
+        self.species=species
+    def make_sound(self):
+        print("meow")
+a=Cat("cat","purssian")
+a.make_sound()
+
+b=animal("cat","orange")
+b.make_sound()

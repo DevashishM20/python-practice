@@ -1,0 +1,11 @@
+class Addition:
+    def add(self, a, b):
+        print("Sum =", a + b)
+class Multiplication:
+    def multiply(self, a, b):
+        print("Product =", a * b)
+class Calculator(Addition, Multiplication):
+    pass
+a = Calculator()
+a.add(10, 20)
+a.multiply(10, 20)

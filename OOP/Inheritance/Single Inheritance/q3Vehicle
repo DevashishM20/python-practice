@@ -1,0 +1,12 @@
+class vehical:
+    def start(self):
+        print("Vehical Started")
+
+class car(vehical):
+    def drive(self):
+        print("Car is Driving")
+
+a=car()
+a.start()
+a.drive()
+        

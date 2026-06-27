@@ -1,0 +1,12 @@
+class father:
+    def display(self):
+        print("hardworking")
+class mother:
+    def hobby(self):
+        print("handicraft")
+class child(father,mother):
+    pass
+
+a=child()
+a.display()
+a.hobby()
