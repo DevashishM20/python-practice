@@ -1,0 +1,8 @@
+try:
+    lst=[1,2,3,4,56,6]
+    i=int(input("enter a number"))
+    print(lst[i])
+except IndexError:
+    print("not in list")
+except ValueError:
+    print("Invalid")

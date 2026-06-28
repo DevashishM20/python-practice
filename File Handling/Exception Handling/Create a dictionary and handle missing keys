@@ -1,0 +1,10 @@
+try:
+     student = {
+        "Devashish": 90,
+        "Palak": 85,
+        "Arti": 95
+    }
+     num=input("Enter number:")
+     print("marks=",student[num])
+except KeyError:
+     print("invalid")
