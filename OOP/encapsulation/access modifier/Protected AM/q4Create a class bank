@@ -1,0 +1,6 @@
+class bank:
+    def __init__(self,balance):
+        self._balance=balance
+a=bank("90000")
+print(a._balance)
+         

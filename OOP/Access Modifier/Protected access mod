@@ -1,5 +1,0 @@
-class salary:
-    def __init__(self,salary):
-        self._salary=salary
-a=salary(2500)
-print(a._salary)

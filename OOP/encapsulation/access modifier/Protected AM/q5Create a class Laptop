@@ -1,0 +1,6 @@
+class laptop:
+    def __init__(self,price):
+        self._price=price
+a=laptop("99333")
+print(a._price)
+        

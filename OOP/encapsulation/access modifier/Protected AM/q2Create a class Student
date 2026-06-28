@@ -1,0 +1,6 @@
+class student:
+    def __init__(self,marks):
+        self._marks=marks
+a=student("95")
+print(a._marks)
+    

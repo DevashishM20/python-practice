@@ -1,0 +1,10 @@
+class Employee:
+    def __init__(self,name,salary):
+        self.name=name
+        self.salary=salary
+a=Employee("Devashish","30000")
+b=Employee("Arti","20000")
+print(a.name)
+print(a.salary)
+print(b.name)
+print(b.salary)

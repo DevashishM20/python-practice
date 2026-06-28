@@ -1,0 +1,7 @@
+class car:
+    def __init__(self,brand,model):
+        self.brand=brand
+        self.model=model
+a=car("BMW","m4")
+print(a.brand)
+print(a.model)

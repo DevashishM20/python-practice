@@ -1,5 +1,6 @@
 class bank:
     def __init__(self,balance):
         self.__balance=balance
-a=bank(3000)
+a=bank("80000")
 print(a._bank__balance)
+        

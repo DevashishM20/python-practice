@@ -1,0 +1,5 @@
+class Employee:
+    def __init__(self,Salary):
+        self._Salary=Salary
+a=Employee("5000")
+print(a._Salary)

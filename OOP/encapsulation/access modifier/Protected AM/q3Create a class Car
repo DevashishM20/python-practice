@@ -1,0 +1,5 @@
+class car:
+    def __init__(self,speed):
+        self._speed=speed
+a=car("200km/h")
+print(a._speed)

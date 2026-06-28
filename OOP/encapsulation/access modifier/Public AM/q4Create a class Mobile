@@ -1,0 +1,7 @@
+class Mobile:
+    def __init__(self,company,price):
+        self.company=company
+        self.price=price
+a=Mobile("Samsung","200")
+print(a.company)
+print(a.price)

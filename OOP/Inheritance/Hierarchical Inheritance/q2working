@@ -1,0 +1,18 @@
+class Person:
+    def __init__(self, name):
+        self.name = name
+    def show_name(self):
+        print(self.name)
+
+class Student(Person):
+    def study(self):
+        print("Studying")
+class Teacher(Person):
+    def teach(self):
+        print("Teaching")
+s = Student("Devashish")
+t = Teacher("Arti")
+s.show_name()
+s.study()
+t.show_name()
+t.teach()
