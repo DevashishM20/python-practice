@@ -1,0 +1,20 @@
+class empolyee:
+    name="Devashish"
+    salry=25000
+a=empolyee()
+print(a.name)
+print(a.salry)
+
+b=empolyee()
+b.name="ullu"
+b.salry=43333
+print(b.name)
+print(b.salry)
+
+c=empolyee()
+c.name="nini"
+c.salry=434344
+print(c.name)
+print(c.salry)
+
+

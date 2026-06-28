@@ -1,0 +1,12 @@
+class BankAccount:
+    def __init__(self,HolderName,Balance):
+        self.HolderName=HolderName
+        self.Balance=Balance
+
+a=BankAccount("Devashish",2000)
+b=BankAccount("Devashish1",3000)
+c=BankAccount("Devashish2",4000)
+
+print("Holder:",a.HolderName,"Balance:",a.Balance)
+print("Holder:",b.HolderName,"Balance:",b.Balance)
+print("Holder:",c.HolderName,"Balance:",c.Balance)
