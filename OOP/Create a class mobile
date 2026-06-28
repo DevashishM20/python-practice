@@ -1,6 +1,0 @@
-class mobile:
-    brand="Samsung"
-    price=25000
-a=mobile()
-print(a.brand)
-print(a.price)

@@ -1,6 +1,0 @@
-class car:
-    brand="Toyota"
-    model="Fortuner"
-a=car()
-print(a.brand)
-print(a.model)

@@ -1,6 +1,0 @@
-class person:
-    name="devashish"
-    age=19
-a=person()
-print(a.name)
-print(a.age)
