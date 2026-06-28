@@ -1,9 +1,0 @@
-try:
-    f=open('hehe.txt','r')
-    a=f.read()
-    print(a)
-except FileNotFoundError:
-    print("File not error")
-finally:
-    print("Thank You")
-
