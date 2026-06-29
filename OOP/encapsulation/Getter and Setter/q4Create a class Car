@@ -1,0 +1,11 @@
+class car:
+    def __init__(self,speed):
+        self.__speed=speed
+    def get_speed(self):
+        return self.__speed
+    def set_speed(self,speed):
+        self.__speed=speed
+a=car("333 km/h")
+print(a.get_speed())
+a.set_speed("22 km/h")
+print(a.get_speed())
