@@ -1,0 +1,14 @@
+class laptop:
+    def __init__(self,price):
+        self.__price=price
+    def get_price(self):
+        return self.__price
+    def set_price(self,price):
+        self.__price=price
+a=laptop("323232")
+print(a.get_price())
+a.set_price("334334")
+print(a.get_price())
+
+
+        
