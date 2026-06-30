@@ -1,0 +1,6 @@
+class circle:
+    def area(self,rad=1):
+        print("radius:",rad)
+        return 3.14*rad*rad
+a=circle()
+print(a.area(1))
