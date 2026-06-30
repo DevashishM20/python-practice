@@ -1,0 +1,7 @@
+class student:
+    def detail(self,name,age=0):
+        print("Name:",name)
+        print("age:",age)
+a=student()
+#a.detail("Devashish")
+a.detail("devashish","20")
