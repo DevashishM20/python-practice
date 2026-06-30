@@ -1,0 +1,10 @@
+class Shopping:
+    def add(self,*number):
+        total=0
+        for i in number:
+            total=total+i
+        print("total items:",len(number))
+        return total
+a=Shopping()
+z=a.add(85,85,95)
+print(z)
