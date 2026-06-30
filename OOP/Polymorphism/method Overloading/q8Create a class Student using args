@@ -1,0 +1,8 @@
+class result:
+    def add(self,*number):
+        total=0
+        for i in number:
+            total=total+i
+        return total
+a=result()
+print(a.add(85,85,95))
