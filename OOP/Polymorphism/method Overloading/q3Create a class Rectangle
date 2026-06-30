@@ -1,0 +1,8 @@
+class rectangle:
+    def area(self,lenght,breath=1):
+        print("lenght:",lenght)
+        print("breath:",breath)
+        return lenght*breath
+a=rectangle()
+print(a.area(11,11))
+print(a.area(11))
