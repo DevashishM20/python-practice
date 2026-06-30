@@ -1,0 +1,8 @@
+class calculator:
+    def add(self,*number):
+        total=0
+        for i in number:
+            total=total+i
+        return total
+a=calculator()
+print(a.add(1,2,3,4,5,6,7,8))
