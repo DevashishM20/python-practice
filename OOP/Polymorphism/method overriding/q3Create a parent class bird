@@ -1,0 +1,11 @@
+class bird:
+    def fly(self):
+        print("Bird can fly")
+class penguin(bird):
+    def fly(self):
+        print("Penguin cannot fly")
+b=bird()
+b.fly()
+
+p=penguin()
+p.fly()

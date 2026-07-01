@@ -1,0 +1,10 @@
+class calculator:
+    def calculate(self):
+        print("Simple calculator")
+class ScientificCalculator(calculator):
+    def calculate(self):
+        print("Scientific Calculator")
+c=calculator()
+c.calculate()
+s=ScientificCalculator()
+s.calculate()

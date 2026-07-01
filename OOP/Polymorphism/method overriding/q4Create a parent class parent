@@ -1,0 +1,10 @@
+class parent:
+    def show(self):
+        print("Person Details")
+class student(parent):
+    def show(self):
+        print("Student Details")
+p=parent()
+p.show()
+s=student()
+s.show()

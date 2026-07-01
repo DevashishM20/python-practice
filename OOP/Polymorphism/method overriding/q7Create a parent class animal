@@ -1,0 +1,10 @@
+class animal:
+    def eat(self):
+        print("Animal eats food")
+class cow(animal):
+    def eat(self):
+        print("Cow eat grass")
+a=animal()
+a.eat()
+c=cow()
+c.eat()

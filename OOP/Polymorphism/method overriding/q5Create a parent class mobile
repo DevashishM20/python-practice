@@ -1,0 +1,11 @@
+class mobile:
+    def feature(self):
+        print("Basic Feature")
+class smartphones(mobile):
+    def feature(self):
+        print("Camera,Internet,apps")
+a=mobile()
+a.feature()
+
+s=smartphones()
+s.feature()
