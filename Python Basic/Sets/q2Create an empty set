@@ -1,0 +1,5 @@
+a = set()
+a.add(10)
+a.add(20)
+a.add(30)
+print(a)
