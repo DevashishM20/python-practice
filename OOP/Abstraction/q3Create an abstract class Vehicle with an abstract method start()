@@ -1,0 +1,13 @@
+from abc import ABC,abstractmethod
+class vehical(ABC):
+    def show(self):
+        print("This is beutiful vehical")
+    @abstractmethod
+    def start(self):
+        pass
+class car(vehical):
+    def start(self):
+        print("Car is starting")
+a=car()
+a.show()
+a.start()
