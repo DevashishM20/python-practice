@@ -1,0 +1,13 @@
+from abc import ABC,abstractmethod 
+class Employee(ABC):
+    def show(self):
+        print("This is an office employee")
+    @abstractmethod
+    def work(self):
+        pass
+class manager(Employee):
+    def work(self):
+        print("He is an emplyee here")
+a=manager()
+a.show()
+a.work()
