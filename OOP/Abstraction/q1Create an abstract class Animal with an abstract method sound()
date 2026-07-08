@@ -1,0 +1,15 @@
+from abc import ABC,abstractmethod 
+class Animal(ABC):
+    def show(self):
+        print("This is animal")
+    @abstractmethod
+    def sound(self):
+        pass
+class dog(Animal):
+    def sound(self):
+        print("Dog Barks")
+a=dog()
+a.show()
+a.sound()
+
+        
