@@ -1,0 +1,17 @@
+from abc import ABC,abstractmethod
+class bank(ABC):
+    def show(self):
+        print("This is a good bank")
+    @abstractmethod
+    def interest(self):
+        pass
+class sbi(bank):
+    def __init__(self,p,r,t):
+        self.p=p
+        self.r=r
+        self.t=t
+    def interest(self):
+        print("interest",self.p*self.r*self.t/100)
+a=sbi(1000,4,10)
+a.show()
+a.interest()
