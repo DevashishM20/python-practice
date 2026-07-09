@@ -1,0 +1,5 @@
+a={
+    "name": "Rahul",
+    "age": 20
+}
+print(a["name"])
