@@ -1,0 +1,7 @@
+a={
+    "name":"Devashish",
+    "age":21,
+    "city":"jaipur"
+}
+for value in a.values():
+    print(value)
