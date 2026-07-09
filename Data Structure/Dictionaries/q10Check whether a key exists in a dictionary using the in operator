@@ -1,0 +1,9 @@
+a={
+    "name": "Dev",
+    "age": 19,
+    "city": "Jaipur"
+}
+if "age" in a:
+    print("Found")
+else:
+    print("Not Found")
