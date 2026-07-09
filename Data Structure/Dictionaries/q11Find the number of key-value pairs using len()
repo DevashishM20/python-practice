@@ -1,0 +1,6 @@
+a={
+    "name": "Dev",
+    "age": 19,
+    "city": "Jaipur"
+}
+print(len(a))
