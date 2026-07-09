@@ -1,0 +1,6 @@
+a={
+    "name":"Devashish",
+    "age":21,
+    "city":"jaipur"
+}
+print(a.keys())
