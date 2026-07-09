@@ -1,0 +1,7 @@
+a={
+    "name": "Dev",
+    "age": 19,
+    "city": "Jaipur"
+}
+for key, value in a.items():
+    print(key, ":", value)
