@@ -1,0 +1,6 @@
+a={
+    "A": 85,
+    "B": 90,
+    "C": 95
+}
+print("Highest Marks:", min(a.values()))
