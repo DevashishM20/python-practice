@@ -1,0 +1,7 @@
+a={
+    "name":"Devashish",
+    "age":19,
+    "city":"jaipur"
+}
+a.pop("city")
+print(a)
