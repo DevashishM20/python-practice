@@ -1,0 +1,8 @@
+a={
+    "name": "Dev",
+    "age": 19,
+    "city": "Jaipur"
+}
+a1=a.copy()
+print("Original Dictionary:",a)
+print("Copied Dictionary:",a1)
