@@ -1,0 +1,6 @@
+a={
+    "Name" : "Devashish",
+    "Age" : 21,
+    "City" : "Jaipur"
+}
+print(a)
