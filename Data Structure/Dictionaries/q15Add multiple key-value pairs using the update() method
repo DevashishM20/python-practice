@@ -1,0 +1,8 @@
+a={
+    "name": "Dev"
+}
+a.update({
+    "age": 19,
+    "city": "Jaipur"
+})
+print(a)
