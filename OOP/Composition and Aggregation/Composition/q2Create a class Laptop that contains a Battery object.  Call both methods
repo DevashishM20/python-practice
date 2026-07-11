@@ -1,0 +1,11 @@
+class battery:
+    def charge(self):
+        print("Battery Connected")
+class Laptop:
+    def __init__(self):
+        self.Battery=battery()
+    def charge_laptop(self):
+        self.Battery.charge()
+        print("Its charging")
+c=Laptop()
+c.charge_laptop()
