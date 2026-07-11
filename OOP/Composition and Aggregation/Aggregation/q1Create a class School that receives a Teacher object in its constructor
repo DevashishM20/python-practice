@@ -1,0 +1,11 @@
+class  Teacher:
+    def classroom(self):
+        print("Teaching Student")
+class school:
+    def __init__(self,teacher):
+        self.teacher=teacher
+    def show(self):
+        self.teacher.classroom()
+a=Teacher()
+d=school(a)
+d.show()
