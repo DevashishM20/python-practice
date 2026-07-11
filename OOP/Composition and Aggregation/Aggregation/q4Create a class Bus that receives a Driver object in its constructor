@@ -1,0 +1,11 @@
+class Driver:
+    def drive(self):
+        print("Driver Driving")
+class Bus:
+    def __init__(self,driver):
+        self.driver=driver
+    def show(self):
+        self.driver.drive()
+a=Driver()
+d=Bus(a)
+d.show()
