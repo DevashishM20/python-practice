@@ -1,0 +1,11 @@
+class book:
+    def read(self):
+        print("Reading book")
+class Library:
+    def __init__(self):
+        self.book=book()
+    def read_book(self):
+        self.book.read()
+        print("many books in library")
+a=Library()
+a.read_book()
