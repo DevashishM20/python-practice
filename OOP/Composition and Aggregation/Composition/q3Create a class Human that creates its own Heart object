@@ -1,0 +1,11 @@
+class heart:
+    def human(self):
+        print("Heart is Beating")
+class Human:
+    def __init__(self):
+        self.Heart=heart()
+    def people_heart(self):
+        self.Heart.human()
+        print("Human is alive")
+a=Human()
+a.people_heart()
