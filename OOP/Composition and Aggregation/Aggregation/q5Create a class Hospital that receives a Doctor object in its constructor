@@ -1,0 +1,11 @@
+class Doctor:
+    def treat(self):
+        print("Doctor Treating Patent")
+class Hospital:
+    def __init__(self,Doctor):
+        self.Doctor=Doctor
+    def show(self):
+        self.Doctor.treat()
+a=Doctor()
+d=Hospital(a)
+d.show()
