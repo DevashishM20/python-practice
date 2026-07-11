@@ -1,0 +1,11 @@
+class Player:
+    def sport(self):
+        print("player playing")
+class Team:
+    def __init__(self,player):
+        self.player=player
+    def show(self):
+        self.player.sport()
+a=Player()
+d=Team(a)
+d.show()        
