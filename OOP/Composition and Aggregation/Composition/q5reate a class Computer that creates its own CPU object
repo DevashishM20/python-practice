@@ -1,0 +1,11 @@
+class cpu:
+    def processing(self):
+        print("cpu processing")
+class computer:
+    def __init__(self):
+        self.CPU=cpu()
+    def computer_start(self):
+        self.CPU.processing()
+        print("Computer Working")
+a=computer()
+a.computer_start()
