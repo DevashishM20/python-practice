@@ -1,0 +1,2 @@
+dict={i:ord(i) for i in "ABCD"}
+print(dict)
