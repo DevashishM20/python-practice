@@ -1,0 +1,2 @@
+div=lambda a,b:a/b
+print(div(2,2))
