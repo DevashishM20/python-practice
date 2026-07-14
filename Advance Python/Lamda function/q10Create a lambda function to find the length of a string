@@ -1,0 +1,2 @@
+num=lambda a:len(a)
+print(num("python"))
