@@ -1,0 +1,2 @@
+squ=lambda a:a*a
+print(squ(5))
