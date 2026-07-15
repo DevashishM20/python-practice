@@ -1,0 +1,3 @@
+lst = [(1, 3), (2, 1), (4, 2)]
+newl=list(sorted(lst,key=lambda x:x[1]))
+print(newl)
