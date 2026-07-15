@@ -1,0 +1,7 @@
+students = [
+    ("Dev", 85),
+    ("Rahul", 70),
+    ("Amit", 95)
+]
+newl=list(sorted(students,key=lambda x:x[1]))
+print(newl)
