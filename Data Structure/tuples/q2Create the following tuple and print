@@ -1,0 +1,2 @@
+t = ("apple", "banana", "mango")
+print(t)
