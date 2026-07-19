@@ -1,0 +1,3 @@
+x = 25.8
+x = int(x)
+print(x)
