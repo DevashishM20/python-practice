@@ -1,5 +1,5 @@
 a={
-    "name": "Rahul",
+    "name": "Devashish",
     "age": 20
 }
 print(a["name"])
