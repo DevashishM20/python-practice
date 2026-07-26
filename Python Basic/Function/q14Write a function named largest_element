@@ -1,0 +1,8 @@
+def largest_element(lst):
+    largest = lst[0]
+    for num in lst:
+        if num > largest:
+            largest = num
+    return largest
+result = largest_element([12, 45, 7, 89, 34])
+print(result)
