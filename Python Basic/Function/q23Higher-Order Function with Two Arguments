@@ -1,0 +1,8 @@
+def add(a, b):
+    return a + b
+def multiply(a, b):
+    return a * b
+def calculate(operation, a, b):
+    return operation(a, b)
+print(calculate(add, 10, 20))
+print(calculate(multiply, 10, 20))
