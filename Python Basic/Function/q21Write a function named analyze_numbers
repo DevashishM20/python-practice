@@ -1,0 +1,19 @@
+def analyze_numbers(*args):
+    total = 0
+    largest = args[0]
+    smallest = args[0]
+    for num in args:
+        total += num
+        if num > largest:
+            largest = num
+        if num < smallest:
+            smallest = num
+    average = total / len(args)
+    return {
+        "sum": total,
+        "largest": largest,
+        "smallest": smallest,
+        "average": average
+    }
+result = analyze_numbers(10, 20, 30, 40, 50)
+print(result)
