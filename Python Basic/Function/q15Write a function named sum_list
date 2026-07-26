@@ -1,0 +1,7 @@
+def sum_list(lst):
+    total = 0
+    for num in lst:
+        total += num
+    return total
+result = sum_list([10, 20, 30, 40])
+print(result)
