@@ -1,0 +1,4 @@
+from numpy import *
+a=zeros(10)
+for x in a:
+    print(x,end=" ")
