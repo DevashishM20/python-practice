@@ -1,0 +1,4 @@
+from numpy import *
+a=array([1,2,3,4,3.0,'a'])
+for x in a:
+    print(x,end=" ")
