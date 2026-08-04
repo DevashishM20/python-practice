@@ -1,0 +1,7 @@
+from array import *
+a=array('i',[1,2,3,4,5,6])
+key=3
+for i in range(len(a)):
+    if a[i]==key:
+        print(i)
+        
