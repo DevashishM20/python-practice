@@ -1,0 +1,11 @@
+from array import *
+a=array('i',[1,2,3,4,5,6,7])
+maximum=float('-inf')
+second=float('-inf')
+for i in a:
+    if i>maximum:
+        second=maximum
+        maximum=i
+    elif i>second and i != maximum:
+        second=i
+print(second)
