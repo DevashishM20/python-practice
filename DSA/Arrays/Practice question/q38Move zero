@@ -1,0 +1,6 @@
+from array import *
+a=array('i',[0,1,2,3,4,5])
+b=a.pop(0)
+a.append(0)
+for i in a:
+    print(i)
