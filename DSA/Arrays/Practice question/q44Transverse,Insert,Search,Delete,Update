@@ -1,0 +1,36 @@
+from array import *
+a=array('i',[1,2,3,4,5,6,7])
+
+#Traverse
+print("Traverse:")
+for x in a:
+    print(x,end=" ")
+
+#Insert
+print("\nAfter Insert:")
+a.insert(1,22)
+for x in a:
+    print(x,end=" ")
+
+#Search
+print("\nSearch:")
+if 2 in a:
+    print("found")
+else:
+    print("not found")
+
+b=a.index(1)
+print(b)
+
+#Delete
+print("\nAfter Delete:")
+a.pop(7)
+for x in a:
+    print(x,end=" ")
+
+#Update
+print("\nAfter Update")
+a[1]=99
+for x in a:
+    print(x,end=" ")
+
