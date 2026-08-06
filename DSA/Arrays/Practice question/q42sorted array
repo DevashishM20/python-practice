@@ -1,0 +1,12 @@
+from array import *
+a=array('i',[1,5,3,6,7])
+b=True
+for i in range(len(a)-1):
+    if a[i]>a[i+1]:
+        b=False
+        break
+if b:
+    print("array is sorted")
+else:
+    print("array is not sorted")
+
