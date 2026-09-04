@@ -1,0 +1,11 @@
+from array import *
+
+stack = array('i')
+
+for i in range(5):
+    x = int(input("Enter element: "))
+    stack.append(x)
+
+print("Elements in reverse order:")
+while len(stack) > 0:
+    print(stack.pop(), end=" ")

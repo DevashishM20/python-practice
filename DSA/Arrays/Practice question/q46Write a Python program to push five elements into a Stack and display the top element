@@ -1,0 +1,9 @@
+from array import *
+
+stack = array('i')
+
+for i in range(5):
+    x = int(input("Enter element: "))
+    stack.append(x)
+
+print("Top element =", stack[-1])
