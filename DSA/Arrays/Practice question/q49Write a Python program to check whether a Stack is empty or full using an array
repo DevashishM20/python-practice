@@ -1,0 +1,17 @@
+from array import *
+
+stack = array('i')
+MAX = 5
+
+for i in range(5):
+    stack.append(int(input("Enter element: ")))
+
+if len(stack) == MAX:
+    print("Stack is Full")
+else:
+    print("Stack is Not Full")
+
+if len(stack) == 0:
+    print("Stack is Empty")
+else:
+    print("Stack is Not Empty")
