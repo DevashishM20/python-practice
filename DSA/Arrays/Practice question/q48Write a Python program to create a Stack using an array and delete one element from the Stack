@@ -1,0 +1,13 @@
+from array import *
+
+stack = array('i')
+
+for i in range(5):
+    x = int(input("Enter element: "))
+    stack.append(x)
+
+print("Deleted element =", stack.pop())
+
+print("Remaining Stack:")
+for i in range(len(stack)-1, -1, -1):
+    print(stack[i])
