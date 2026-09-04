@@ -1,0 +1,27 @@
+class node:
+    def __init__(self,value,next=None):
+        self.value=value
+        self.next=next
+class SinglyLinkList:
+    def __init__(self,head=None):
+        self.head=head
+    def InsertAtPos(self,value,x):
+        temp=node(value)
+        t1=self.head
+        while t1.next != None:
+            if t1.value == x:
+                temp.next=t1.next
+                t1.next=temp
+            t1=t1.next
+    def display(self):
+        t1=self.head
+        while t1.next != None:
+            print(t1.value)
+            t1=t1.next
+        print(t1.value)
+a=SinglyLinkList()
+a.InsertAtPos(10,1)
+a.InsertAtPos(20,2)
+a.InsertAtPos(30,3)
+a.InsertAtPos(40,4)
+a.display()
