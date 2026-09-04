@@ -1,0 +1,28 @@
+class node:
+    def __init__(self,value,next=None):
+        self.value=value
+        self.next=next
+
+class SinglyLinkList:
+    def __init__(self,head=None):
+        self.head=head
+    def InsertAtEnd(self,value):
+        temp=node(value)
+        if self.head != None:
+            t1=self.head
+            while t1.next != None:
+                t1=t1.next
+            t1.next=temp
+        else:
+            self.head=temp
+    def display(self):
+        t1=self.head
+        while t1 != None:
+            print(t1.value)
+            t1=t1.next
+        print(t1.value)
+a=SinglyLinkList()
+a.InsertAtEnd(10)
+a.InsertAtEnd(20)
+a.InsertAtEnd(30)      
+a.display()
