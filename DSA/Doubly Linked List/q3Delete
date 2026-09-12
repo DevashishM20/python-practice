@@ -1,0 +1,51 @@
+class node:
+    def __init__(self,data):
+        self.data=data
+        self.prev=None
+        self.next=None
+class DoublyLL:
+    def __init__(self):
+        self.head=None
+    def InsertAtBeg(self,value):
+        nn=node(value)
+        if self.head==None:
+            self.head=nn
+            return
+        else:
+            nn.next=self.head
+            self.head.prev=nn
+            self.head=nn
+    def DeleteValue(self,value):
+        if self.head==None:
+            print("Linked list is Empty")
+            return
+        nn=self.head
+        while nn != None:
+            if nn.data==value:
+                if nn.prev==None:
+                    self.head = nn.next
+                    if self.head != None:
+                        self.head.prev = None
+            elif nn.next == None:
+                nn.prev.next = None
+            else:
+                nn.prev.next = nn.next
+                nn.next.prev = nn.prev
+            return
+        nn = nn.next
+    print("Value not found")
+
+
+    def printLL(self):
+        t1=self.head
+        while t1.next!=None:
+            print(t1.data)
+            t1=t1.next
+        print(t1.data)
+a=DoublyLL()
+a.InsertAtBeg(10)
+a.InsertAtBeg(20)
+a.InsertAtBeg(30)
+a.InsertAtBeg(40)
+a.DeleteValue(40)
+a.printLL()
