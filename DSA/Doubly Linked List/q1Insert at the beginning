@@ -1,0 +1,31 @@
+class node:
+    def __init__(self,data):
+        self.data=data
+        self.prev=None
+        self.next=None
+class DoublyLL:
+    def __init__(self):
+        self.head=None
+    def InsertAtEnd(self,value):
+        nn=node(value)
+        if self.head==None:
+            self.head=nn
+            return
+        else:
+            fake=self.head
+            while fake.next != None:
+                fake=fake.next
+        fake.next=nn
+        nn.prev=fake
+    def printLL(self):
+        t1=self.head
+        while t1.next!=None:
+            print(t1.data)
+            t1=t1.next
+        print(t1.data)
+a=DoublyLL()
+a.InsertAtEnd(10)
+a.InsertAtEnd(20)
+a.InsertAtEnd(30)
+a.InsertAtEnd(40)
+a.printLL()
