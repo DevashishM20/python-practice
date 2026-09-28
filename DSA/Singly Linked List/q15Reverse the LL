@@ -1,0 +1,37 @@
+class node:
+    def __init__(self,info,next=None):
+        self.info=info
+        self.next=next
+class SingleLL:
+    def __init__(self,head=None):
+        self.head=head
+    def add(self,value):
+        temp=node(value)
+        if self.head==None:
+            self.head=temp
+        else:
+            t1=self.head
+            while t1.next!=None:
+                t1=t1.next
+            t1.next=temp
+    def reverse(self):
+        prev=None
+        current=self.head
+        while current!=None:
+            nn=current.next
+            current.next=prev
+            prev=current
+            current=nn
+        self.head=prev
+    def display(self):
+        t1=self.head
+        while t1!=None:
+            print(t1.info)
+            t1=t1.next
+a=SingleLL()
+a.add(10)
+a.add(20)
+a.add(30)
+a.add(40)
+a.reverse()
+a.display()
