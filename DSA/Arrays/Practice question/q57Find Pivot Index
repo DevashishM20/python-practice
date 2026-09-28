@@ -1,0 +1,8 @@
+a=[1,7,3,6,7,6]
+total=sum(a)
+left=0
+for x in range(len(a)):
+    right=total-left-a[x]
+    if left==right:
+        print(x)
+    left+=a[x]
