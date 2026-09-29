@@ -1,0 +1,14 @@
+a=[2,7,11,15]
+k=9
+left=0
+right=len(a)-1
+while left<right:
+    c=a[left]+a[right]
+    if c==k:
+        print([a[left],a[right]])
+    elif c<k:
+        left+=1
+    elif c>k:
+        right-=1
+    
+   
